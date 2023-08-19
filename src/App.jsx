@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
+import Calculator from './components/Calculator'
 
 function App() {
 
   return (
     <>
       <div>
-        <h3>How are you?</h3>
+        <Calculator/>
       </div>
     </>
   )
